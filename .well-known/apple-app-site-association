@@ -1,27 +1,26 @@
 {
+    "webcredentials": {
+        "apps": [
+            "8W9G7Z4BFR.ru.audioclub"
+            ]
+    },
     "applinks": {
-      "apps": [],
-      "details": [
-        {
-          "appID": "8W9G7Z4BFR.ru.audioclub",
-          "paths": [
-            "/home/*",
-            "/album/*",
-            "/author/*",
-            "/podcast/*",
-            "/podcast_epsode/*",
-            "/compilation/*",
-            "/book/*",
-            "/radiostation/*",
-            "/radioprogram/*",
-            "/radioprogram_episode/*",
-            "/recommended/",
-            "/main/*",
-            "/collections/*",
-            "/search/",
-            "/settings/"
-          ]
-        }
-      ]
+        "apps": [],
+        "details": [
+            {
+                "appID": "8W9G7Z4BFR.ru.audioclub",
+                "paths": [
+                    "/pay"
+                ],
+                "appIDs": [
+                    "8W9G7Z4BFR.ru.audioclub"
+                ],
+                "components": [
+                    {
+                        "/": "/home/*"
+                    }
+                ]
+            }
+        ]
     }
-  }
+}
